@@ -85,7 +85,7 @@ class Support {
     required this.text,
   });
 
-  factory Support.fromJson(Map<String, dynamic> json) => Support(
+  factory Support.fromJson(Map  <String, dynamic> json) => Support(
     url: json["url"],
     text: json["text"],
   );

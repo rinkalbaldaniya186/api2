@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         maxRadius: 40,
                         backgroundImage: NetworkImage(user.avatar),
                       ),
-                    );
+                    ); 
                   },
                 );
               } else if (snapshot.hasError) {
